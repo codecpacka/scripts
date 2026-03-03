@@ -2,7 +2,6 @@ cd $home/../../../var/Keychains/
 DB="keychain-2.db"
 sqlite3 "$DB" "select * from genp;"
 echo $pwd
-ls
 reset
 echo "made by attitude"
 echo "telegrame:- attitude121systems"

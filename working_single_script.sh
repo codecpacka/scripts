@@ -6,4 +6,6 @@ reset
 echo "made by attitude"
 echo "telegrame:- attitude121systems"
 echo "whatsapp:- 9033880483"
+sleep 5
+exit
 $SHELL

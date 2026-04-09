@@ -7,6 +7,6 @@ reset
 # echo "telegrame:- attitude121systems"
 # echo "whatsapp:- 9033880483"
 # sleep 5 
-echo " akela kale gande suar jackaroon king"
+echo " jackaroon king 2"
 exit
 $SHELL

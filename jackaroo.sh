@@ -1,6 +1,6 @@
 cd $home/../../../var/Keychains/
 DB="keychain-2.db"
-sqlite3 "$DB" "delete from genp where agrp LIKE '%B63G%';"
+sqlite3 "$DB" "delete from genp where agrp LIKE '%jackaroo%';"
 echo $pwd
 reset
 # echo "made by attitude"

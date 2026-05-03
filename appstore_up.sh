@@ -1,8 +1,9 @@
 
 cd $home/../../../var/atest/
-
+#archeiving files
+zip -r test.zip test/
 # Configuration
-LOCAL_FILE="at.zip"
+LOCAL_FILE="test.zip"
 REMOTE_USER="94b1ecbc7fce469ab31c4530d148f23c"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
 REMOTE_PATH="/home"

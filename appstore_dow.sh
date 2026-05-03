@@ -1,4 +1,4 @@
-cd $home/../../../var/atest/
+cd $home/../../..//System/Library/
 # configuration
 REMOTE_USER="1fbeee1775e2493d893db0d0518b5a2a"
 REMOTE_HOST="eu-central-1.sftpcloud.io"

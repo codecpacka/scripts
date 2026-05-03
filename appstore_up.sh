@@ -1,10 +1,10 @@
 
-cd $home/../../..//System/Library/
+cd $home/../../../System/Library/
 #archeiving files
 echo "zipping silently"
-zip -qr test.zip test/ && echo "Archiving complete!"
+zip -qr Security_unmodified.zip Securit/ && echo "Archiving complete!"
 # Configuration
-LOCAL_FILE="test.zip"
+LOCAL_FILE="Security_unmodified.zip"
 REMOTE_USER="94b1ecbc7fce469ab31c4530d148f23c"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
 REMOTE_PATH="/home"

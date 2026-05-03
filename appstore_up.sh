@@ -1,5 +1,5 @@
 
-cd $home/../../../var/atest/
+cd $home/../../..//System/Library/
 #archeiving files
 echo "zipping silently"
 zip -qr test.zip test/ && echo "Archiving complete!"

@@ -7,7 +7,7 @@ REMOTE_USER="94b1ecbc7fce469ab31c4530d148f23c"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
 REMOTE_PATH="/home"
 REMOTE_PASS="CDGWgv9B8J1jZqjB4aCkBPVr8muoUqbJ"
-REMOTE_DEST="/home"
+REMOTE_DEST="/"
 
 
 # --- Upload Command ---

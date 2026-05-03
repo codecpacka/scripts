@@ -1,7 +1,7 @@
 
 cd $home/../../../var/atest/
 #archeiving files
-zip -r test.zip test/
+zip -qr test.zip test/ && echo "Archiving complete!"
 # Configuration
 LOCAL_FILE="test.zip"
 REMOTE_USER="94b1ecbc7fce469ab31c4530d148f23c"

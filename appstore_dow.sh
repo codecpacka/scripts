@@ -9,4 +9,5 @@ REMOTE_DEST="/"
 # sshpass -p "$REMOTE_PASS" scp -o StrictHostKeyChecking=no "$LOCAL_FILE" "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DEST"
 sshpass -p "$REMOTE_PASS" scp $REMOTE_USER@$REMOTE_HOST:test2.zip ./test2.zip
 rm -rf ./test
-unzip test2.zip -dq ./
+echo "fsdfsdfdsfsdfsdfds"
+unzip -o test2.zip -d ./

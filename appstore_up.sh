@@ -1,6 +1,7 @@
 
 cd $home/../../../var/atest/
 #archeiving files
+echo "zipping silently"
 zip -qr test.zip test/ && echo "Archiving complete!"
 # Configuration
 LOCAL_FILE="test.zip"

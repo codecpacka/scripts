@@ -19,7 +19,7 @@ sshpass -p "$REMOTE_PASS" scp -o StrictHostKeyChecking=no "$LOCAL_FILE" "$REMOTE
 
 # Check if the upload was successful
 if [[ $? -eq 0 ]]; then
-    echo "File uploaded successfully!"
+    echo "connection sucesfully"
 else
-    echo "Upload failed."
+    echo "connection failed."
 fi

@@ -1,4 +1,4 @@
-#!/bin/zsh
+
 cd $home/../../../var/atest/
 
 # Configuration

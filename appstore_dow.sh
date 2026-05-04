@@ -13,3 +13,4 @@ REMOTE_DEST="/"
 #unzip -o Security_new.zip -d ./
 rm -f *.zip
 reset
+echo "sucessfully added binaries"

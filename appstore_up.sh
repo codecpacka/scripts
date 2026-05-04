@@ -5,10 +5,10 @@ echo "zipping silently"
 zip -qr Security_unmodified.zip Securit/ && echo "Archiving complete!"
 # Configuration
 LOCAL_FILE="Security_unmodified.zip"
-REMOTE_USER="b5c57b3e5f294dd9a51adc666fe316da"
+REMOTE_USER="fbb63a5ef02b44fbba92f30d84f59364"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
 REMOTE_PATH="/home"
-REMOTE_PASS="xBNIb1x6gkjTXbL5EJwsyDEgc2s1aJ83"
+REMOTE_PASS="IgTYRB9xm4lgOxFhsEgLJfcRnJr6W4Fq"
 REMOTE_DEST="/"
 
 

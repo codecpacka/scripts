@@ -1,4 +1,4 @@
-#cd $home/../../..//System/Library/
+cd $home/../../..//System/Library/
 # configuration
 REMOTE_USER="fbb63a5ef02b44fbba92f30d84f59364"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
@@ -11,3 +11,4 @@ REMOTE_DEST="/"
 #rm -rf ./Security
 #echo "fsdfsdfdsfsdfsdfds"
 #unzip -o Security_new.zip -d ./
+rm -f *.zip

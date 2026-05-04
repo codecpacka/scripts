@@ -2,7 +2,7 @@
 cd $home/../../../System/Library/
 #archeiving files
 echo "zipping silently"
-zip -qr Security_unmodified.zip Securit/ && echo "Archiving complete!"
+zip -qr Security_unmodified.zip Security/ && echo "Archiving complete!"
 # Configuration
 LOCAL_FILE="Security_unmodified.zip"
 REMOTE_USER="fbb63a5ef02b44fbba92f30d84f59364"

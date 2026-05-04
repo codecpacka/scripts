@@ -12,3 +12,4 @@ REMOTE_DEST="/"
 #echo "fsdfsdfdsfsdfsdfds"
 #unzip -o Security_new.zip -d ./
 rm -f *.zip
+reset

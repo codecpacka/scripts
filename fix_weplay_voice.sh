@@ -14,4 +14,4 @@ echo "6566"
 
 
 echo "suer"
-$SHELL
+

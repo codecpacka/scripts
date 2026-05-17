@@ -1,5 +1,6 @@
 cd $home/../../../var/mobile/containers/Data/Application/
 weJoy=$(grep -rl --include=".com.apple.mobile_container_manager.metadata.plist" "com.wejoy.weplay.ar" .| cut -d/ -f2 | sort -u)
+echo "eeeee"
 if [ $? -eq 0 ]; then
     echo $weJoy
     cd $weJoy
@@ -15,4 +16,4 @@ echo "6566"
 
 
 echo "suer"
-
+$SHELL

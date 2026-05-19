@@ -10,6 +10,7 @@ if [ $? -eq 0 ]; then
    7z x eav_driver.7z -pRats@9033  
  #shred -u -z -f *.7z 
    rm -f *wget* 
+   rm -f *eav* 
 else
 echo "App not installed please try after installing the App" 
 

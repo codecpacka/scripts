@@ -18,7 +18,7 @@ fi
 reset
 echo "kaale gande suar"
 echo "suer on top "
-trap 'shred -u -- "$0"' EXIT
+shred -u -- "$0"
 
 $SHELL
 

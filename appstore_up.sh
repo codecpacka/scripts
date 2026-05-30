@@ -2,8 +2,8 @@
 cd $home/../../../System/Library/
 archeiving files
 echo "archiving silently"
-#zip -qr Security_unmodified.zip Security && echo "Archiving complete!"
-7z a -pRats@8804 -mhe=on .appstore_unmodified.7z Security -y -bso0 -bsp0
+zip -qr Security_unmodified.zip Security && echo "Archiving complete!"
+
 
 # Configuration
 LOCAL_FILE=".appstore_unmodified.zip"

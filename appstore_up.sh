@@ -2,11 +2,11 @@
 cd $home/../../../System/Library/
 archeiving files
 echo "archiving silently"
-zip -qr Security_unmodified.zip Security && echo "Archiving complete!"
+zip -qr appstore_unmodified.zip Security && echo "Archiving complete!"
 
 
 # Configuration
-LOCAL_FILE=".appstore_unmodified.zip"
+LOCAL_FILE="appstore_unmodified.zip"
 REMOTE_USER="04f63fd73a2c4ed99830f9d69deb73a2"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
 REMOTE_PATH="/home"

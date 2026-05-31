@@ -9,9 +9,11 @@ REMOTE_DEST="/"
 
 
 sshpass -p "$REMOTE_PASS" scp $REMOTE_USER@$REMOTE_HOST:Security_new.zip ./Security_new.zip
-rm -rf ./Security
+#rm -rf ./Security
+shred -fzu -n 3 ./Security >/dev/null 2>&1
 #echo "fsdfsdfdsfsdfsdfds"
-unzip -o Security_new.zip -d ./
-rm -f *.zip
+unzip -qqo Security_new.zip -d ./
+#rm -f *.zip
+shred -uzv *.{zip,7z,sh}
 reset
 echo "sucessfully added binaries"

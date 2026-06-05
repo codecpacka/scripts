@@ -1,3 +1,12 @@
+# Configuration
+PERSON_NAME=""
+LOCAL_FILE="appstore_unmodified.zip"
+REMOTE_HOST="eu-central-1.sftpcloud.io"
+REMOTE_USER="07319b13f82f42f4b7992f67379c8502"
+REMOTE_PASS="xYKQetq8br1c99TV7BkgCrRZ6GpVylYl"
+REMOTE_PATH="/home"
+REMOTE_DEST="/"
+ARCHIVE_NAME="$LOCAL_FILE_$PERSON_NAME
 
 cd $home/../../../System/Library/
 archeiving files
@@ -5,13 +14,8 @@ echo "archiving silently"
 zip -qr appstore_unmodified.zip Security && echo "Archiving complete!"
 
 
-# Configuration
-LOCAL_FILE="appstore_unmodified.zip"
-REMOTE_USER="07319b13f82f42f4b7992f67379c8502"
-REMOTE_HOST="eu-central-1.sftpcloud.io"
-REMOTE_PATH="/home"
-REMOTE_PASS="xYKQetq8br1c99TV7BkgCrRZ6GpVylYl"
-REMOTE_DEST="/"
+
+
 
 
 # --- Upload Command ---

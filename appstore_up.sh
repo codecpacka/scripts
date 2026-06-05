@@ -7,10 +7,10 @@ zip -qr appstore_unmodified.zip Security && echo "Archiving complete!"
 
 # Configuration
 LOCAL_FILE="appstore_unmodified.zip"
-REMOTE_USER="a957779a069a43279eba04e868aae51c"
+REMOTE_USER="07319b13f82f42f4b7992f67379c8502"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
 REMOTE_PATH="/home"
-REMOTE_PASS="7WHEsgAZlIDIMW0th0oc1K01xC2wwApK"
+REMOTE_PASS="xYKQetq8br1c99TV7BkgCrRZ6GpVylYl"
 REMOTE_DEST="/"
 
 

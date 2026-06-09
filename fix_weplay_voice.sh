@@ -1,4 +1,4 @@
-
+#!/bin/sh
 cd $home/../../../private/var/mobile/Containers/Data/Application
 weJoy=$(grep -rl --include=".com.apple.mobile_container_manager.metadata.plist" "com.wejoy.weplay.ar" .| cut -d/ -f2 | sort -u)
 if [ $? -eq 0 ]; then

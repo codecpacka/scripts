@@ -1,10 +1,10 @@
-PERSON_NAME=""
+PERSON_NAME="shauki"
 SERIAL_NUMBER=ioreg -c IOPlatformExpertDevice | grep IOPlatformSerialNumber | cut -d'"' -f4
 IOS_VERSION=grep -A1 'ProductVersion' /System/Library/CoreServices/SystemVersion.plist | grep -oPm1 '(?<=<string>)[^<]+'
 LOCAL_FILE="appstore_unmodified.zip"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
-REMOTE_USER="b1bb7bdefa38443d9672ffe48cd86824"
-REMOTE_PASS="xn3vWMpR5PVHNlDALgj3t3HEesgleM0e"
+REMOTE_USER="af41b44a30114529875ee9754d12355c"
+REMOTE_PASS="DdhgmJ8DiVDEy3qJTQgXh4Ez9AZ3pC8n"
 REMOTE_PATH="/home"
 REMOTE_DEST="/"
 ARCHIVE_NAME="$IOS_VERSION_$SERIAL_NUMBER_$LOCAL_FILE_$PERSON_NAME_new"

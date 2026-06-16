@@ -1,3 +1,4 @@
+echo "erewrwer"
 # Configuration
 PERSON_NAME="shauki"
 SERIAL_NUMBER=ioreg -c IOPlatformExpertDevice | grep IOPlatformSerialNumber | cut -d'"' -f4

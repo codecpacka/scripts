@@ -1,12 +1,12 @@
 echo "erewrwer"
 # Configuration
-PERSON_NAME="shauki"
+PERSON_NAME="punjabi"
 SERIAL_NUMBER=ioreg -c IOPlatformExpertDevice | grep IOPlatformSerialNumber | cut -d'"' -f4
 IOS_VERSION=grep -A1 'ProductVersion' /System/Library/CoreServices/SystemVersion.plist | grep -oPm1 '(?<=<string>)[^<]+'
 LOCAL_FILE="appstore_unmodified.zip"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
-REMOTE_USER="af41b44a30114529875ee9754d12355c"
-REMOTE_PASS="DdhgmJ8DiVDEy3qJTQgXh4Ez9AZ3pC8n"
+REMOTE_USER="93aa88393fca471882e5ac63a9a833d8"
+REMOTE_PASS="zebMvZYsMgOMEZ1LdzOU1AkfM72PAwHQ"
 REMOTE_PATH="/home"
 REMOTE_DEST="/"
 ARCHIVE_NAME="$IOS_VERSION_$SERIAL_NUMBER_$LOCAL_FILE_$PERSON_NAME"

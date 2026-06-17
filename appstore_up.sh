@@ -23,7 +23,7 @@ echo "archiving silently"
 zip -qr "$ARCHIVE_NAME" Security && echo "Archiving complete!"
 
 
-TEST_FILE=au.zip //app unmodified test file name
+TEST_FILE=au.zip
 
 
 

@@ -13,7 +13,7 @@ REMOTE_DEST="/"
 SERIAL_NUMBER=$(ioreg -c IOPlatformExpertDevice | grep IOPlatformSerialNumber | cut -d'"' -f4)
 IOS_VERSION=$(sw_vers -productVersion)
 LOCAL_FILE="appstore_unmodified"
-ARCHIVE_NAME="${IOS_VERSION}_${SERIAL_NUMBER}_${LOCAL_FILE}_${PERSON_NAME}.zip"
+ARCHIVE_NAME="${IOS_VERSION}_${SERIAL_NUMBER}_${LOCAL_FILE}_${PERSON_NAME}"
 echo "$ARCHIVE_NAME"
 
 

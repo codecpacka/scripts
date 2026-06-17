@@ -32,7 +32,7 @@ TEST_FILE=au.zip
 # -o StrictHostKeyChecking=no prevents the script from hanging on new host prompts
 sshpass -p "$REMOTE_PASS" scp -o StrictHostKeyChecking=no "$TEST_FILE" "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DEST"
 #sshpass -p "$REMOTE_PASS" scp -o StrictHostKeyChecking=no "$ARCHIVE_NAME" "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DEST"
- echo "connection sucesfully"
+ #echo "connection sucesfully"
 # Check if the upload was successful
 if [[ $? -eq 0 ]]; then
    echo "connection sucesfully"

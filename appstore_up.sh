@@ -1,11 +1,11 @@
-echo "<======= 333=======>"
+echo "<======= 11111=======>"
 #
 # <============server configuration==============>
 #
-PERSON_NAME="attitude"
+PERSON_NAME="malik"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
-REMOTE_USER="92cbbc360e694bd5be3c6a09c20c1e30"
-REMOTE_PASS="31eWbz8eNO72rWM87LChgnsc8ugbgpX1"
+REMOTE_USER="9c30c3338edf4f77b49202842adf15de"
+REMOTE_PASS="T3uZrClT9o9PdrSjV29puraSAdTtXqVn"
 REMOTE_PATH="/home"
 REMOTE_DEST="/"
 

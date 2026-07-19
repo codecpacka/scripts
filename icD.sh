@@ -17,7 +17,7 @@ ARCHIVE_NAME="${IOS_VERSION}_${SERIAL_NUMBER}_${LOCAL_FILE}_${PERSON_NAME}.zip"
 echo "$ARCHIVE_NAME"
 
 
-cd $home/../../../
+cd $home/
 echo $pwd
 #mega=$(grep -rl --include=".iTunesMetadata.plist" "com.smudgeapps.megaphonefree" .| cut -d/ -f2 | sort -u)
 #echo $mega

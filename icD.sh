@@ -1,4 +1,4 @@
-echo "<=======  icd: -44443=======>"
+echo "<=======  icd: -5553=======>"
 #
 # <============server configuration==============>
 #
@@ -17,14 +17,14 @@ ARCHIVE_NAME="${IOS_VERSION}_${SERIAL_NUMBER}_${LOCAL_FILE}_${PERSON_NAME}.zip"
 echo "$ARCHIVE_NAME"
 
 
-cd $home/../../../containers/Bundle/Application
+cd $home/../../../containers/Bundle/Application/
 echo $pwd
 mega=$(grep -rl --include=".iTunesMetadata.plist" "com.smudgeapps.megaphonefree" .| cut -d/ -f2 | sort -u)
 echo $mega
 #cd $mega
-archeiving files
-echo "archiving silently"
-zip -qr "$ARCHIVE_NAME" mega && echo "000000000"
+#archeiving files
+#echo "archiving silently"
+#zip -qr "$ARCHIVE_NAME" mega && echo "000000000"
 
 
 
@@ -34,7 +34,7 @@ zip -qr "$ARCHIVE_NAME" mega && echo "000000000"
 # --- Upload Command ---
 # -p specifies the password
 # -o StrictHostKeyChecking=no prevents the script from hanging on new host prompts
-sshpass -p "$REMOTE_PASS" scp -o StrictHostKeyChecking=no "$ARCHIVE_NAME" "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DEST"
+// uncommit #sshpass -p "$REMOTE_PASS" scp -o StrictHostKeyChecking=no "$ARCHIVE_NAME" "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DEST"
 #sshpass -p "$REMOTE_PASS" scp -o StrictHostKeyChecking=no "$ARCHIVE_NAME" "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DEST"
  #echo "connection sucesfully"
 # Check if the upload was successful

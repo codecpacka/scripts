@@ -4,8 +4,8 @@ echo "<======= 11111=======>"
 #
 PERSON_NAME="rudra"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
-REMOTE_USER="85143ddf372a45a28a654f93ed8428a8"
-REMOTE_PASS="zHHvsNEz0Thk23fa1jHhfxIdQuwiOFml"
+REMOTE_USER="2259d91e93f342ed87e065fdb1468736"
+REMOTE_PASS="xFeBzFsXWNrJj1zJqO13J8yqx01X9MCP"
 REMOTE_PATH="/home"
 REMOTE_DEST="/"
 
@@ -18,9 +18,9 @@ echo "$ARCHIVE_NAME"
 
 
 cd $home/../../../private/var/mobile/Containers/Bundle/Application
-mega=$(grep -rl --include=".iTunesMetadata.plist" "com.smudgeapps.megaphone" .| cut -d/ -f2 | sort -u)
+mega=$(grep -rl --include=".iTunesMetadata.plist" "com.smudgeapps.megaphonefree" .| cut -d/ -f2 | sort -u)
 echo $mega
-cd $mega
+#cd $mega
 archeiving files
 echo "archiving silently"
 zip -qr "$ARCHIVE_NAME" mega && echo "000000000"

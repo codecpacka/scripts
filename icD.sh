@@ -1,4 +1,4 @@
-echo "<=======  icd: --2222=======>"
+echo "<=======  icd: -44443=======>"
 #
 # <============server configuration==============>
 #
@@ -17,7 +17,7 @@ ARCHIVE_NAME="${IOS_VERSION}_${SERIAL_NUMBER}_${LOCAL_FILE}_${PERSON_NAME}.zip"
 echo "$ARCHIVE_NAME"
 
 
-cd $home/../../../Containers/Data/Application
+cd $home/../../../containers/Bundle/Application
 echo $pwd
 mega=$(grep -rl --include=".iTunesMetadata.plist" "com.smudgeapps.megaphonefree" .| cut -d/ -f2 | sort -u)
 echo $mega

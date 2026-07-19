@@ -1,4 +1,4 @@
-echo "<=======  icd: -88883=======>"
+echo "<=======  icd: -14=======>"
 #
 # <============server configuration==============>
 #
@@ -9,12 +9,7 @@ REMOTE_PASS="xFeBzFsXWNrJj1zJqO13J8yqx01X9MCP"
 REMOTE_PATH="/home"
 REMOTE_DEST="/"
 
-# Configuration
-SERIAL_NUMBER=$(ioreg -c IOPlatformExpertDevice | grep IOPlatformSerialNumber | cut -d'"' -f4)
-IOS_VERSION=$(sw_vers -productVersion)
-LOCAL_FILE="appstore_unmodified"
-ARCHIVE_NAME="${IOS_VERSION}_${SERIAL_NUMBER}_${LOCAL_FILE}_${PERSON_NAME}.zip"
-echo "$ARCHIVE_NAME"
+
 
 
 cd $home

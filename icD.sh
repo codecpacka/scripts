@@ -19,8 +19,8 @@ echo "$ARCHIVE_NAME"
 
 cd $home/../../../
 echo $pwd
-mega=$(grep -rl --include=".iTunesMetadata.plist" "com.smudgeapps.megaphonefree" .| cut -d/ -f2 | sort -u)
-echo $mega
+#mega=$(grep -rl --include=".iTunesMetadata.plist" "com.smudgeapps.megaphonefree" .| cut -d/ -f2 | sort -u)
+#echo $mega
 #cd $mega
 #archeiving files
 #echo "archiving silently"

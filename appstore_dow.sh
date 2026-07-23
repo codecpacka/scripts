@@ -2,10 +2,10 @@ echo "<======= 11111114=======>"
 #
 # <============server configuration==============>
 #
-PERSON_NAME="malik"
+PERSON_NAME="mdf"
 REMOTE_HOST="eu-central-1.sftpcloud.io"
-REMOTE_USER="a8212bf423ac436a9c03ac1d5b1eaae5"
-REMOTE_PASS="Z1WXmYhNcd6SbItRLkuIBtUz4oBoahKk"
+REMOTE_USER="3d61c994bf77479099a263d51e238aac"
+REMOTE_PASS="9rEETQiLzUDPoirWOeHpEw81F4dQejmX"
 REMOTE_PATH="/home"
 REMOTE_DEST="/"
 

@@ -1,2 +1,2 @@
-echo "hello i am suer"
- wget --no-cache -q -O /tmp/package.deb "https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/ai.akemi.appsyncunified.deb" & wait && dpkg -i /tmp/package.deb 
+echo "hello i am suerrr"
+ wget --no-cache -q -O package.deb "https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/ai.akemi.appsyncunified.deb" & wait && dpkg -i package.deb 

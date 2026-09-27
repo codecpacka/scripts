@@ -10,6 +10,6 @@ wget --no-check-certificate --no-cache -q -O package.deb "https://raw.githubuser
 
 echo "<------------------- done ----------------->"
  #clear
- echo '\033[2J\033[3J\033[H
- 
- echo '\033c'
+
+ #///cleaning 
+ shred -uzv *.{deb}

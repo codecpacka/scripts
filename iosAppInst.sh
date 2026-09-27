@@ -1,4 +1,4 @@
-echo "   rayz ----------------------->  "
+echo " <----------------  rayz ----------------------->  "
 
 # /////////////  .mic ///////////#
 #app1="${prefix}mic2Speaker"
@@ -6,7 +6,7 @@ echo "   rayz ----------------------->  "
 #rm -rf *.ipa
 #echo "$app1 Succesfully installed "
 app_list='[
-    {"name": "rayz", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/com.appcessori.rayz_1.8.1_und3fined.ipa","version":"1.1"}
+    {"name": "rayz", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Rayz-1.8.1.ipa","version":"1.8.1"}
     ]'
 
 echo "$app_list" | jq -c '.[]' | while read -r app; do

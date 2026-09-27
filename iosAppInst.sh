@@ -1,4 +1,4 @@
-echo "   New 65666   "
+echo "   Neww 77777   "
 
 # /////////////  .mic ///////////#
 #app1="${prefix}mic2Speaker"

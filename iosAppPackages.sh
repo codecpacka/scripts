@@ -12,7 +12,7 @@ wget --no-check-certificate --no-cache -q -O package.deb "https://raw.githubuser
   wget --no-check-certificate --no-cache -q -O package3.deb "https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/jq_1.6-1_iphoneos-arm.deb" & wait && dpkg -i package3.deb >/dev/null 2>&1
 echo "<------------------- done ----------------->"
  #clear
-
+apt-get -f install
  #///cleaning 
+ uicache
  rm -rf *.deb
- shred -uzv *.{deb}

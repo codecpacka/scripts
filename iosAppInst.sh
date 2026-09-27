@@ -1,4 +1,4 @@
-echo "   final versions added all apps    "
+echo "   final versions added all apps 1111    "
 
 # /////////////  .mic ///////////#
 #app1="${prefix}mic2Speaker"
@@ -6,7 +6,7 @@ echo "   final versions added all apps    "
 #rm -rf *.ipa
 #echo "$app1 Succesfully installed "
 app_list='[
-    {"name": "mic 2 speaker ", "url:"https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Mic2Speaker_2.1.ipa","version":"2.1"},
+    {"name": "mic 2 speaker ", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Mic2Speaker_2.1.ipa","version":"2.1"},
     {"name": "dot mic ", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Mic._1.3_CrackerXI.ipa","version":"1.3"},
     {"name": "bigo live ", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/BIGO%20LIVE_4.10.0_CrackerXI.ipa","version":"4.10.0"},
     {"name": "funkie", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/funkie.ipa","version":"2.8.2"},

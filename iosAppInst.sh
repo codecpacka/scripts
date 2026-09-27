@@ -11,7 +11,8 @@ app_list='[
     {"name": "bigo live ", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/BIGO%20LIVE_4.10.0_CrackerXI.ipa","version":"4.10.0"},
     {"name": "funkie", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/funkie.ipa","version":"2.8.2"},
     {"name": "hello yo", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/hellotalk_5.10.3_CrackerXI.ipa","version":"5.10.3"},
-    {"name": "third ear", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/RemoteEar_1.1.0_.ipa","version":"1.1.0"}
+    {"name": "third ear", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/RemoteEar_1.1.0_.ipa","version":"1.1.0"},
+    {"name": "rayz", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/com.appcessori.rayz_1.8.1_und3fined.ipa,"version":"1.8.1"}
      ]'
 
 echo "$app_list" | jq -c '.[]' | while read -r app; do

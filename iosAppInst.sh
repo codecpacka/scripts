@@ -1,4 +1,4 @@
-echo "   New 5555   "
+echo "   New 65666   "
 
 # /////////////  .mic ///////////#
 #app1="${prefix}mic2Speaker"
@@ -6,16 +6,18 @@ echo "   New 5555   "
 #rm -rf *.ipa
 #echo "$app1 Succesfully installed "
 app_list='[
-    {"name": "mic 2 speaker ", "url": "url1","version":""},
-    {"name": "dot mic ", "url": "url2","version":""}
+    {"name": "mic 2 speaker ", "url": "url1","version":"1"},
+    {"name": "dot mic ", "url": "url2","version":"2"}
     ]'
 
 echo "$app_list" | jq -c '.[]' | while read -r app; do
     # Extract specific values from each app object
     name=$(echo "$app" | jq -r '.name')
-    qty=$(echo "$app" | jq -r '.url')
+    url=$(echo "$app" | jq -r '.url')
+    version=$(echo "$app" | jq -r '.version')
     
-    echo "app: $name | Quantity: $url"
+    
+    echo "app: $name | Url: $url | version: $version "
 done
 
 

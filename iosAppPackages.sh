@@ -1,4 +1,4 @@
-echo "hello i 66666"
+echo "hello i 7777"
  
  
  #///apsync

@@ -1,5 +1,5 @@
-echo "   777   "
-rm -rf *.ipa
+echo "   New 1111   "
+*rm -rf *.ipa
 prefix="."
 
                 # /////////////  .mic ///////////#

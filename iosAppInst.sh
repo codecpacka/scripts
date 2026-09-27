@@ -9,7 +9,10 @@ prefix="."
 #echo "$app1 Succesfully installed "
 
 TEMP_FILE=$(mktemp)
+echo $TEMP_FILE
 trap 'rm -rf "$TEMP_FILE"' EXIT
 url="https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Mic2Speaker_2.1.ipa"
-wget --no-check-certificate --no-cache -O "$TEMP_FILE" ${url} & wait && appinst $TEMP_FILE.ipa
+wget --no-check-certificate --no-cache -O "${TEMP_FILE}" ${url} & wait && appinst $TEMP_FILE
 echo "test successfull"
+TEMP_FILE=$(mktemp)
+echo $TEMP_FILE

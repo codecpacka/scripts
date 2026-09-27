@@ -1,4 +1,4 @@
-echo "   New 22222   "
+echo "   New 333   "
 *rm -rf *.ipa
 prefix="."
 

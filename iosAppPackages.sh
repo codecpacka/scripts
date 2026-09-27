@@ -14,7 +14,7 @@ wget --no-check-certificate --no-cache -q -O package.deb "https://raw.githubuser
   echo "sync jq"
 
   #//ota
-    wget --no-check-certificate --no-cache -q -O package3.deb "https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/com.ichitaso.otadisabler_0.6_arm.deb" & wait && dpkg -i package3.deb >/dev/null 2>&1
+    wget --no-check-certificate --no-cache -q -O package4.deb "https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/com.ichitaso.otadisabler_0.6_arm.deb" & wait && dpkg -i package4.deb >/dev/null 2>&1
   echo "sync ichitaso"
 echo "<------------------- done ----------------->"
  #clear

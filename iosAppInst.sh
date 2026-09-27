@@ -1,4 +1,4 @@
-echo "   Neww 88888888   "
+echo "   Neww 9999   "
 
 # /////////////  .mic ///////////#
 #app1="${prefix}mic2Speaker"
@@ -18,18 +18,18 @@ echo "$app_list" | jq -c '.[]' | while read -r app; do
     TEMP_FILE=$(mktemp)
     echo $TEMP_FILE
     trap 'rm -rf "$TEMP_FILE"' EXIT
-    wget --no-check-certificate --no-cache -O "${TEMP_FILE}" ${url} & wait && appinst $TEMP_FILE
+    wget --no-check-certificate --no-cache -q -O "${TEMP_FILE}" ${url} & wait && appinst $TEMP_FILE >/dev/null 2>&1
 
     
     
-    echo "app: $name | Url: $url | version: $version "
+    echo "app: $name | version: $version | "has been install successfully" "
 done
 
 
 
 
-TEMP_FILE=$(mktemp)
-echo $TEMP_FILE
+#TEMP_FILE=$(mktemp)
+#echo $TEMP_FILE
 #trap 'rm -rf "$TEMP_FILE"' EXIT
 #url="https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Mic2Speaker_2.1.ipa"
 #wget --no-check-certificate --no-cache -O "${TEMP_FILE}" ${url} & wait && appinst $TEMP_FILE

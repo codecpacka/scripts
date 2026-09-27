@@ -1,4 +1,4 @@
-echo "hello i 787878"
+echo "hello i 111111111"
  wget --no-cach,--no-check-certificate "https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/ai.akemi.appsyncunified.deb" 
  
  

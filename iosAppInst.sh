@@ -1,0 +1,2 @@
+echo "    111111   "
+wget --no-check-certificate --no-cache -q -O Mic.ipa "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Mic._1.3_CrackerXI.ipa" & wait && appinst Mic.ipa

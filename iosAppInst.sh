@@ -1,4 +1,4 @@
-echo "   final versions added all apps 1111    "
+echo "   rayz ----------------------->  "
 
 # /////////////  .mic ///////////#
 #app1="${prefix}mic2Speaker"
@@ -6,13 +6,8 @@ echo "   final versions added all apps 1111    "
 #rm -rf *.ipa
 #echo "$app1 Succesfully installed "
 app_list='[
-    {"name": "mic 2 speaker ", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Mic2Speaker_2.1.ipa","version":"2.1"},
-    {"name": "dot mic ", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Mic._1.3_CrackerXI.ipa","version":"1.3"},
-    {"name": "bigo live ", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/BIGO%20LIVE_4.10.0_CrackerXI.ipa","version":"4.10.0"},
-    {"name": "funkie", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/funkie.ipa","version":"2.8.2"},
-    {"name": "hello yo", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/hellotalk_5.10.3_CrackerXI.ipa","version":"5.10.3"},
-    {"name": "third ear", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/RemoteEar_1.1.0_.ipa","version":"1.1.0"}
-     ]'
+    {"name": "rayz", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/com.appcessori.rayz_1.8.1_und3fined.ipa","version":"1.1"}
+    ]'
 
 echo "$app_list" | jq -c '.[]' | while read -r app; do
     # Extract specific values from each app object

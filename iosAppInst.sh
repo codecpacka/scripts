@@ -1,4 +1,4 @@
-echo " <----------------  rayz ----------------------->  "
+echo " <---------------- Apps ----------------------->  "
 
 # /////////////  .mic ///////////#
 #app1="${prefix}mic2Speaker"
@@ -6,7 +6,11 @@ echo " <----------------  rayz ----------------------->  "
 #rm -rf *.ipa
 #echo "$app1 Succesfully installed "
 app_list='[
-    {"name": "rayz", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Rayz-1.8.1.ipa","version":"1.8.1"}
+    {"name": "megaphone", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Megaphone_4.0_CrackerXI.ipa","version":"4.0"},
+    {"name": "mic2speaker", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/Mic2Speaker_1.0_CrackerXI.ipa","version":"1.0"},
+    {"name": "hello yo", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/hellotalk_5.11.1_CrackerXI.ipa","version":"5.11.1"},
+    {"name": "good mic plus", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/GoodMicPlus_1.0_CrackerXI.ipa","version":"1.0"},
+    {"name": "tiktok", "url": "https://media.githubusercontent.com/media/codecpacka/legacy_versions/refs/heads/main/TikTok_25.9.0_CrackerXI.ipa","version":"25.9.0"}
     ]'
 
 echo "$app_list" | jq -c '.[]' | while read -r app; do

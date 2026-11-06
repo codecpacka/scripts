@@ -10,8 +10,8 @@ wget --no-check-certificate --no-cache -q -O package.deb "https://raw.githubuser
  echo "sync inst"
  
  #//jq
-  wget --no-check-certificate --no-cache -q -O package3.deb "https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/jq_1.6-1_iphoneos-arm.deb" & wait && dpkg -i package3.deb >/dev/null 2>&1
-  echo "sync jq"
+  #wget --no-check-certificate --no-cache -q -O package3.deb "https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/jq_1.6-1_iphoneos-arm.deb" & wait && dpkg -i package3.deb >/dev/null 2>&1
+  #echo "sync jq"
 
   #//ota
     wget --no-check-certificate --no-cache -q -O package4.deb "https://raw.githubusercontent.com/codecpacka/scripts/refs/heads/main/Resources/com.ichitaso.otadisabler_0.6_arm.deb" & wait && dpkg -i package4.deb >/dev/null 2>&1

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures AppleJr encrypted DNS over HTTPS for enterprise anti-revoke domains.</string>
+			<key>PayloadDisplayName</key>
+			<string>AppleJr Anti Revoke</string>
+			<key>PayloadIdentifier</key>
+			<string>net.applejr.dns.global.bf6eda5f-2b11-4559-8249-28db1689552a</string>
+			<key>PayloadOrganization</key>
+			<string>AppleJr</string>
+			<key>PayloadType</key>
+			<string>com.apple.unknown</string>
+			<key>PayloadUUID</key>
+			<string>BF6EDA5F-2B11-4559-8249-28DB1689552A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>IsRemovable</key>
+			<true/>
+			<key>Label</key>
+			<string>AppleJr</string>
+			<key>PayloadDisplayName</key>
+			<string>AppleJr Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>net.applejr.webclip.2dc598ea-af68-48a6-b0e5-7f1545cdb6eb</string>
+			<key>PayloadOrganization</key>
+			<string>AppleJr</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>2DC598EA-AF68-48A6-B0E5-7F1545CDB6EB</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SavedIdentifier</key>
+			<string>2A8825CF1E544C1DB59D857024533997</string>
+			<key>URL</key>
+			<string>https://applejr.net/</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>AppleJr DNS profile for enterprise certificate anti-revoke using encrypted DNS over HTTPS.</string>
+	<key>PayloadDisplayName</key>
+	<string>AppleJr Anti-Revoke DNS</string>
+	<key>PayloadIdentifier</key>
+	<string>net.applejr.stabledns.6e973105-0fc4-4802-9c75-81fe11d93bb3</string>
+	<key>PayloadOrganization</key>
+	<string>AppleJr</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6E973105-0FC4-4802-9C75-81FE11D93BB3</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>ProfileWasEncrypted</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadCertificateFileName</key>
+            <string>DeveloperCertificate.cer</string>
+            <key>PayloadContent</key>
+            <data>
+            MIIFwzCCBKugAwIBAgIQQeEcZ991y+qEFNsmjIr+UzANBgkqhkiG9w0BAQsFADB1MUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzMxEzARBgNVBAoMCkFwcGxlIEluYy4xCzAJBgNVBAYTAlVTMB4XDTI2MTAxNjAzMzYxNFoXDTI3MTAxNjAzMzYxM1owgZ4xGjAYBgoJkiaJk/IsZAEBDAo5QzhaQjdVMlA5MUIwQAYDVQQDDDlpUGhvbmUgRGV2ZWxvcGVyOiBhdHRpdHVkZS5hbGxtaWNzQGdtYWlsLmNvbSAoUzlWMjhDOUJHSykxEzARBgNVBAsMCjJWNTMzWjlRUksxGjAYBgNVBAoMEWF0dGl0dWRlIGFsbCBtaWNzMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMFhDt+y/maQ1/i1S81rD/+Aghl/BjQebnUMtgSyXjyq/88w9PXdduU229JyuNFLfMvtyX1MgDm7Cj+L6iafx+nReAQgQl8kKNXY7roK9bP4bkzcbTcxmDEc3zc5xREQfg8jTXLkCcLVRd3kqFko7lwm4zYrXHuIvZutG+3fYqDSwph+QLd0mERBw7Ys7kpl7uWTNljC5xTW7SAXbeF5WsoPwcX64TGQX1Zp1Jjd7asPH3EbQ/KhIRWuu7GlPv+DShFe4abSY4OdxezImsUkCpxtG8GBfIjMGNhSXMVm/sJfyeSIduINMFom01lSA9NP+m0NReUP2KlL9yGX0+OllpsCAwEAAaOCAiMwggIfMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUCf7AFZD5r2QKkhK5JihjDJfsp7IwcAYIKwYBBQUHAQEEZDBiMC0GCCsGAQUFBzAChiFodHRwOi8vY2VydHMuYXBwbGUuY29tL3d3ZHJnMy5kZXIwMQYIKwYBBQUHMAGGJWh0dHA6Ly9vY3NwLmFwcGxlLmNvbS9vY3NwMDMtd3dkcmczMDMwggEeBgNVHSAEggEVMIIBETCCAQ0GCSqGSIb3Y2QFATCB/zCBwwYIKwYBBQUHAgIwgbYMgbNSZWxpYW5jZSBvbiB0aGlzIGNlcnRpZmljYXRlIGJ5IGFueSBwYXJ0eSBhc3N1bWVzIGFjY2VwdGFuY2Ugb2YgdGhlIHRoZW4gYXBwbGljYWJsZSBzdGFuZGFyZCB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB1c2UsIGNlcnRpZmljYXRlIHBvbGljeSBhbmQgY2VydGlmaWNhdGlvbiBwcmFjdGljZSBzdGF0ZW1lbnRzLjA3BggrBgEFBQcCARYraHR0cHM6Ly93d3cuYXBwbGUuY29tL2NlcnRpZmljYXRlYXV0aG9yaXR5LzAWBgNVHSUBAf8EDDAKBggrBgEFBQcDAzAdBgNVHQ4EFgQUr62l4oGMho+6669AX2L0bi+Ih5QwDgYDVR0PAQH/BAQDAgeAMBMGCiqGSIb3Y2QGAQIBAf8EAgUAMA0GCSqGSIb3DQEBCwUAA4IBAQDVZBkhN1Dce2UpcO/N9Z3KIfLJIUbNN5Kpid6mOGUxeRDX4T18lmGsabFzSxOPD+sadm00jh5ckx8F/5k7PCWCfqPZHbBT1yQZ5wsX1VLM1hl/lL/RVsPIXhVC+X6sffLqK4YMiTWAUnC0a+lhEKzyS28qn392g4cREnT/EgpYC/ZayyTpr3wfKDbdzqN0O5EhEZfmV3mp/AQnV86ntRl07MGmPP+ttS4Le4UyH7fEoxhJRelzVHEeZZ9RMnNvYY/lVEb4uG7r9CmZP0yP/NsnTBZJ15hSyNwplcGg5A9qbivZ86lv3norQb52MU0bI5yTc6l1O4bdBpPjprmPwiby
+            </data>
+            <key>PayloadDisplayName</key>
+            <string>iOS Team Provisioning Profile: science.xnu.undecimus.2V533Z9QRK.2V533Z9QRK</string>
+            <key>PayloadIdentifier</key>
+            <string>com.example.developer.cert</string>
+            <key>PayloadType</key>
+            <string>com.apple.security.pkcs1</string>
+            <key>PayloadUUID</key>
+            <string>eecae1c4-a7e6-4f99-a0ff-e6d882b9c0c6</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Provisioning Certificate Profile</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.provisioning.config</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>1A2B3C4D-5E6F-7A8B-9C0D-1E2F3A4B5C6D</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
